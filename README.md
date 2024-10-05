@@ -30,7 +30,8 @@ The ability to accurately predict the popularity of a music track is a valuable 
 ### 2. Exploratory Data Analysis (EDA)
 A preliminary analysis was conducted to understand the distribution of the popularity classes and the relationships between musical features.
 
-**Fig**: Distribution of Low, Medium, and High popularity tracks.
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning
+/blob/main/results/DC.png)
 
 ### 3. Model Development
 Three machine learning models were developed and evaluated to predict the popularity of a track based on its musical features:
