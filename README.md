@@ -30,8 +30,8 @@ The ability to accurately predict the popularity of a music track is a valuable 
 ### 2. Exploratory Data Analysis (EDA)
 A preliminary analysis was conducted to understand the distribution of the popularity classes and the relationships between musical features.
 
-**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning
-/blob/main/results/DC.png)
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning/blob/main/results/DC.png)
+
 
 ### 3. Model Development
 Three machine learning models were developed and evaluated to predict the popularity of a track based on its musical features:
@@ -39,24 +39,26 @@ Three machine learning models were developed and evaluated to predict the popula
 #### Logistic Regression:
 - Logistic Regression was chosen for its simplicity and interpretability. However, it struggled with the "Low" popularity class.
 
-**Fig**: Confusion Matrix for Logistic Regression showing model performance across popularity classes.
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning/blob/main/results/LR.png)
 
 #### Random Forest:
 - Random Forest was used for its ability to handle non-linear relationships and feature interactions. It performed significantly better across all popularity classes.
 
-**Fig**: Confusion Matrix for Random Forest showing improved performance, especially for the 'Low' and 'High' popularity classes.
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning/blob/main/results/RF.png)
 
 #### Naive Bayes:
 - Naive Bayes was also tested, but it exhibited lower overall accuracy compared to Random Forest and Logistic Regression.
 
-**Fig**: Confusion Matrix for Naive Bayes showing model performance with lower precision for the 'Low' popularity class.
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning/blob/main/results/NB.png)
 
 ### 4. Feature Importance Analysis
 We analyzed the importance of each musical feature using the coefficients from the Logistic Regression model and the feature importances from the Random Forest model.
 
-**Fig**: Feature importances from Logistic Regression.
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning/blob/main/results/LR_1.png)
 
-**Fig**: Feature importances from Random Forest.
+
+**Fig**: ![image](https://github.com/Vartikaac/Predicting-Music_Trends_with_MachineLearning/blob/main/results/RF_1.png)
+
 
 ---
 
